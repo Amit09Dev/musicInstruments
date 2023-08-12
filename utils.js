@@ -1,4 +1,3 @@
-
 class Beat {
 
     constructor(audioSrc) {
@@ -11,8 +10,6 @@ class Beat {
         this.audio.play()
     }
 }
-
-
 
 
 class Button {

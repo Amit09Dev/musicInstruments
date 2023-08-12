@@ -39,7 +39,7 @@ let beats = {
 }
 
 /* Function to play the beat upon a press of key */
-triggerBeat = (event) => {
+const triggerBeat = (event) => {
     const keyCode = event.keyCode
 
     if (keyCode in beats) {
